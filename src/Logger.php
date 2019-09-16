@@ -105,9 +105,6 @@ class Logger extends AbstractLogger
      * @param string $logDirectory      File path to the logging directory
      * @param string $logLevelThreshold The LogLevel Threshold
      * @param array  $options
-     *
-     * @internal param string $logFilePrefix The prefix for the log file name
-     * @internal param string $logFileExt The extension for the log file
      */
     public function __construct($logDirectory, $logLevelThreshold = LogLevel::DEBUG, array $options = array())
     {
